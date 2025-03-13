@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoGuide AI - Your Sustainable Living Assistant</title>
+    <link rel="stylesheet" href="../assets/css/components/eco-chat.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <div class="header-left">
+                <i class="fas fa-leaf"></i>
+                <h1>EcoGuide AI</h1>
+            </div>
+            <div class="header-right">
+                <a href="landing.html" class="back-btn"><i class="fas fa-home"></i> Home</a>
+            </div>
+        </div>
+        
+        <div class="chat-messages" id="chat-messages">
+            <div class="message bot">
+                <div class="avatar">
+                    <i class="fas fa-robot"></i>
+                </div>
+                <div class="message-content">
+                    <div class="message-text">
+                        <p>Hello! I'm EcoGuide, your sustainable living assistant. I can help answer questions about renewable energy, sustainable practices, reducing waste, eco-friendly products, and more.</p>
+                        <p>How can I help you live more sustainably today?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="chat-input">
+            <input type="text" id="user-input" placeholder="Ask about sustainable living...">
+            <button id="send-btn"><i class="fas fa-paper-plane"></i></button>
+        </div>
+        
+        <div class="chat-footer">
+            <p>Powered by Gemini AI • For educational purposes only</p>
+        </div>
+    </div>
+    
+    <script src="../assets/js/eco-chat.js"></script>
+</body>
+</html>

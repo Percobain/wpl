@@ -1,6 +1,3 @@
-// CO2 Calculator Script
-
-// Initialize all sliders
 const sliders = {
     car: { id: 'car-slider', value: 100, factor: 0.12 }, // 0.12 kg CO2 per km
     public: { id: 'public-slider', value: 5, factor: 1.5 }, // 1.5 kg CO2 per trip
