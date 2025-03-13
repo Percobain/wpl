@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(to bottom, #049064, #012A1D);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 1200px;
+}
+
+.left {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.illustration {
+    width: 550px; 
+    max-width: 100%;
+    animation: fadeIn 1.5s ease-in-out;
+    filter: drop-shadow(0px 5px 20px rgba(0, 255, 178, 0.5));
+}
+
+.right {
+    flex: 1;
+    text-align: center;
+    color: white;
+}
+
+.title {
+    font-size: 80px;  
+    font-weight: 900;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 
+        4px 4px 0px #00A378,  
+        8px 8px 0px rgba(0, 0, 0, 0.2),  
+        0px 0px 20px rgba(0, 255, 178, 0.8); 
+    letter-spacing: 6px; 
+    margin-bottom: 40px; 
+    position: relative;
+    
+}
+
+.subtitle {
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 30px;
+    max-width: 75%; 
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.9;
+}
+
+.buttons {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center; 
+    gap: 40px; 
+}
+
+.btn {
+    background: #018965;
+    border: none;
+    color: white;
+    padding: 16px 38px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 10px; 
+    cursor: pointer;
+    box-shadow: 0px 4px 15px rgba(0, 255, 178, 0.4);
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background: #008F5F; 
+    transform: scale(1.05);
+    box-shadow: 0px 6px 20px rgba(0, 255, 178, 0.6);
+}
+
+a:link {
+    text-decoration: none;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: scale(0.9); }
+    to { opacity: 1; transform: scale(1); }
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .illustration {
+        width: 320px;
+    }
+
+    .right {
+        margin-top: 30px;
+    }
+
+    .title {
+        font-size: 60px;
+        margin-bottom: 30px;
+    }
+
+    .subtitle {
+        max-width: 90%;
+    }
+
+    .buttons {
+        flex-direction: column;
+        gap: 20px;
+    }
+}

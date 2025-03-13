@@ -1,0 +1,71 @@
+body {
+    background: linear-gradient(135deg, #215E4B, #012A1D);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.auth-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 3rem;
+    background: rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    backdrop-filter: blur(15px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px; 
+    background: rgba(255, 255, 255, 0.15);
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.3); 
+    border-radius: 10px;
+    font-size: 16px;
+    outline: none; 
+    box-sizing: border-box; 
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: rgba(39, 174, 96, 0.6);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px; /* Softer, rounded edges */
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 1rem;
+    backdrop-filter: blur(5px);
+    transition: background 0.3s ease-in-out, transform 0.2s;
+}
+
+button:hover {
+    background: #27ae60;
+}
+
+.error {
+    color: #e74c3c;
+    margin-bottom: 1rem;
+}
+
+a:any-link {
+    color: white;
+}
+
+.success {
+    color: #2ecc71;
+    margin-bottom: 1rem;
+}
