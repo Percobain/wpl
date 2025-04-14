@@ -50,9 +50,3 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     exit();
 }
 ?>
-
-<!-- filepath: /Applications/XAMPP/xamppfiles/htdocs/wpl/pages/co2.php -->
-<form action="save_calculator.php" method="POST">
-    <!-- Your form fields here -->
-    <button type="submit" class="save-btn">Save</button>
-</form>
