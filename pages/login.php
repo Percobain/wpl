@@ -23,7 +23,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $_SESSION['user_id'] = $user['id'];
             $_SESSION['username'] = $user['username'];
             
-            header("Location: co2.php");  // Redirect to co2.php instead of co2.html
+            header("Location: dashboard.php");  // Redirect to co2.php instead of co2.html
             exit();
         } else {
             $error = "Invalid username or password";

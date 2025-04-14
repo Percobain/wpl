@@ -5,7 +5,7 @@ if (!isset($_SESSION['user_id'])) {
     exit();
 } else {
     // Redirect logged in users to the CO2 calculator page
-    header("Location: pages/co2.php");
+    header("Location: pages/dashboard.php");
     exit();
 }
 ?>
