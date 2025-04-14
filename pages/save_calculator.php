@@ -19,10 +19,19 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $natural_gas = intval($_POST['natural_gas']);
         $meat_consumption = intval($_POST['meat_consumption']);
         $local_food = intval($_POST['local_food']);
+        $energy_source = $_POST['energy_source'] ?? 'grid';
+        $diet_type = $_POST['diet_type'] ?? 'omnivore';
 
         // Insert data into the database using PDO
-        $sql = "INSERT INTO co2_calculations (user_id, car_travel, public_transport, flights, electricity, natural_gas, meat_consumption, local_food, created_at)
-                VALUES (:user_id, :car_travel, :public_transport, :flights, :electricity, :natural_gas, :meat_consumption, :local_food, NOW())";
+        $sql = "INSERT INTO co2_calculations (
+                user_id, car_travel, public_transport, flights, 
+                electricity, natural_gas, meat_consumption, local_food,
+                energy_source, diet_type, created_at
+            ) VALUES (
+                :user_id, :car_travel, :public_transport, :flights, 
+                :electricity, :natural_gas, :meat_consumption, :local_food,
+                :energy_source, :diet_type, NOW()
+            )";
 
         $stmt = $conn->prepare($sql);
         $stmt->execute([
@@ -33,7 +42,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             ':electricity' => $electricity,
             ':natural_gas' => $natural_gas,
             ':meat_consumption' => $meat_consumption,
-            ':local_food' => $local_food
+            ':local_food' => $local_food,
+            ':energy_source' => $energy_source,
+            ':diet_type' => $diet_type
         ]);
 
         $_SESSION['success_message'] = "CO2 calculation saved successfully!";
