@@ -39,7 +39,8 @@ try {
         <nav class="sidebar">
             <div class="sidebar-header">
                 <!-- <img src="../assets/images/eco-logo.png" alt="EcoLearn Logo" class="logo"> -->
-                <h3>EcoLearn</h3>
+                <!-- <h3>EcoLearn</h3> -->
+                 <h3> <br/> </h3>
             </div>
             <ul class="sidebar-menu">
                 <li><a href="dashboard.php"><i class="fas fa-home"></i> Dashboard</a></li>
