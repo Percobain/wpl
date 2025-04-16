@@ -28,7 +28,7 @@ try {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CO2 Calculator - EcoLearn</title>
+    <title>CO2 Calculator - EcoLife</title>
     <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="stylesheet" href="../assets/css/components/co2.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -38,8 +38,8 @@ try {
     <div class="app-container">
         <nav class="sidebar">
             <div class="sidebar-header">
-                <!-- <img src="../assets/images/eco-logo.png" alt="EcoLearn Logo" class="logo"> -->
-                <!-- <h3>EcoLearn</h3> -->
+                <!-- <img src="../assets/images/eco-logo.png" alt="EcoLife Logo" class="logo"> -->
+                <!-- <h3>EcoLife</h3> -->
                  <h3> <br/> </h3>
             </div>
             <ul class="sidebar-menu">

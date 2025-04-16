@@ -241,7 +241,7 @@ function shareResults() {
     const totalEmissions = document.getElementById('total-emissions').textContent;
     const impactRating = document.getElementById('impact-rating').textContent;
     
-    const shareText = `I just calculated my carbon footprint: ${totalEmissions} CO2/year. ${impactRating} Calculate yours at EcoLearn!`;
+    const shareText = `I just calculated my carbon footprint: ${totalEmissions} CO2/year. ${impactRating} Calculate yours at EcoLife!`;
     
     // Check if Web Share API is available
     if (navigator.share) {
