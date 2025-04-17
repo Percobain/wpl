@@ -1,5 +1,3 @@
-// EcoGuide AI Chatbot using Gemini API
-
 // API Configuration
 const API_KEY = ''; 
 const API_URL = 'https://generativelanguage.googleapis.com/v1/models/gemini-1.5-pro:generateContent';

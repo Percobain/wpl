@@ -336,15 +336,15 @@ $progress = ($total_points % 100) / 100 * 100;
                 <div class="footer-motto">
                     <p>"Every small action creates a ripple of positive change for our planet."</p>
                 </div>
-                <div class="footer-links">
+                <!-- <div class="footer-links">
                     <a href="dashboard.php">Dashboard</a>
                     <a href="profile.php">Profile</a>
                     <a href="about.php">About Us</a>
                     <a href="contact.php">Contact</a>
-                </div>
+                </div> -->
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2025 EcoQuests. All rights reserved.</p>
+                <p>&copy; 2025 EcoLife. All rights reserved.</p>
             </div>
         </div>
     </footer>
