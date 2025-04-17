@@ -25,7 +25,7 @@ EcoLife is a web application designed to help users track, understand, and reduc
 
 - [Shreyans Tatiya](https://github.com/percobain) - 16010123325 - E2 batch
 - [Shreya Menon](https://github.com/SM006) - 16010123324 - E2 batch
-- [Siddhant Raut](https://github.com/S1MPSID) - 1601012331 - E2 batch
+- [Siddhant Raut](https://github.com/S1MPSID) - 16010123331 - E2 batch
 
 
 ## 🌿 Features
@@ -178,4 +178,3 @@ Emissions are calculated using the following factors:
 - Integration with smart home devices
 - Carbon offsetting recommendations
 - Expanded challenge categories
-
